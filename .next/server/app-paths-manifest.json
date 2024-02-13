@@ -1,0 +1,18 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/api/login/route": "app/api/login/route.js",
+  "/api/logout/route": "app/api/logout/route.js",
+  "/api/current/route": "app/api/current/route.js",
+  "/api/resourc/[resourceId]/route": "app/api/resourc/[resourceId]/route.js",
+  "/api/users/[userId]/route": "app/api/users/[userId]/route.js",
+  "/api/users/[userId]/resourc/route": "app/api/users/[userId]/resourc/route.js",
+  "/api/resourc/route": "app/api/resourc/route.js",
+  "/api/users/route": "app/api/users/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/add-resources/page": "app/add-resources/page.js",
+  "/profile/user/page": "app/profile/user/page.js",
+  "/page": "app/page.js",
+  "/sign-up/page": "app/sign-up/page.js",
+  "/show-resources/page": "app/show-resources/page.js",
+  "/login/page": "app/login/page.js"
+}
