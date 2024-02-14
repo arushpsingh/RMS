@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 
-const Resourc = ({ resource }) => {
+const Resource = ({ resource }) => {
     return (
         <>
             <Box>
@@ -19,4 +19,4 @@ const Resourc = ({ resource }) => {
     );
 };
 
-export default Resourc;
+export default Resource;

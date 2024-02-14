@@ -2,7 +2,7 @@
 import UserContext from "@/context/UserContext";
 import { Box, Typography } from "@mui/material";
 import React, { useContext, useEffect, useState } from "react";
-import Resourc from "./Resourc";
+import Resourc from "./Resource";
 import { getUserResources } from "@/service/resourceService";
 
 const ShowResources = () => {
@@ -13,7 +13,6 @@ const ShowResources = () => {
     const loadTask = async (userId) => {
         try {
             const resour = await getUserResources(userId);
-            console.log("line 16",resour);
             setUserResources([...resour]);
         } catch (error) {
             console.error(error);
